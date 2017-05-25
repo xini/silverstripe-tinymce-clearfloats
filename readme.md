@@ -3,6 +3,8 @@
 [![Version](http://img.shields.io/packagist/v/innoweb/silverstripe-tinymce-clearfloats.svg?style=flat-square)](https://packagist.org/packages/innoweb/silverstripe-tinymce-clearfloats)
 [![License](http://img.shields.io/packagist/l/innoweb/silverstripe-tinymce-clearfloats.svg?style=flat-square)](license.md)
 
+This is a SilverStripe port of the [Wordpress plugin](https://github.com/tyrann0us/tinymce-clear-buttons) by [David Bammes](https://github.com/tyrann0us).
+
 ## Overview
 
 Adds a clear-floats plugin to the TinyMCE editor in the CMS. 
