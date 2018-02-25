@@ -12,15 +12,17 @@ Adds a clear-floats plugin to the TinyMCE editor in the CMS.
 It uses an image in the editor to visualise the clearing element and replaces it with a `<br style="clear:both;" />` 
 for display on the site. 
 
-![CMS view](./docs/en/_images/screenshot-cms.jpg)
+![CMS view](./docs/en/_images/screenshot-cms.png)
 *CMS view*
 
-![Frontend view](./docs/en/_images/screenshot-frontend.jpg)
+![Frontend view](./docs/en/_images/screenshot-frontend.png)
 *Frontend view*
 
 ## Requirements
 
-* SilverStripe CMS ~3.1
+* SilverStripe CMS 4.x
+
+Note: this version is compatible with SilverStripe 4. For SilverStripe 3, please see the [1.1 release line](https://github.com/xini/silverstripe-tinymce-clearfloats/tree/1.1).
 
 ## Installation
 
