@@ -1,7 +1,7 @@
 {
 	"name": "innoweb/silverstripe-tinymce-clearfloats",
 	"description": "Adds a clear-floats plugin the CMS WYSIWYG editor",
-	"type": "silverstripe-module",
+	"type": "silverstripe-vendormodule",
 	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe", "WYSIWYG", "floats", "tinymce", "clear"],
 	"homepage": "http://github.com/xini/silverstripe-tinymce-clearfloats",
@@ -11,10 +11,11 @@
 	}],
 	"require":
 	{
-		"silverstripe/framework": "~3.1",
-		"silverstripe/cms": "~3.1"
+		"silverstripe/cms": "^4"
 	},
 	"extra": {
-		"installer-name": "tinymce-clearfloats"
+		"expose": [
+			"client/tinymce"
+		]
 	}
 }
