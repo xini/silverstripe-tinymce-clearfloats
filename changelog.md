@@ -12,7 +12,6 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 * credit original author
 
-
 ## [1.0.0]
 
 * initial release
