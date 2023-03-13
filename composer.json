@@ -11,7 +11,7 @@
 	}],
 	"require":
 	{
-		"silverstripe/cms": "^4"
+		"silverstripe/cms": "^5"
 	},
 	"extra": {
 		"expose": [
