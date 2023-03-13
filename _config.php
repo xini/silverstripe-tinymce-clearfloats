@@ -4,10 +4,10 @@ use SilverStripe\Forms\HTMLEditor\TinyMCEConfig;
 use SilverStripe\Core\Manifest\ModuleLoader;
 
 $path = ModuleLoader::getModule('innoweb/silverstripe-tinymce-clearfloats')
-    ->getResource('client/tinymce/tinymce-clear-float/js/plugin.min.js');
+    ->getResource('client/dist/javascript/clear-float.js');
 
 TinyMCEConfig::get('cms')->enablePlugins([
-    'tinymce_clear_float_plugin' => $path
+    'clear-float' => $path
 ]);
 
-TinyMCEConfig::get('cms')->insertButtonsAfter('unlink', 'tinymce-clear-float');
+TinyMCEConfig::get('cms')->insertButtonsAfter('unlink', 'clear-float');

@@ -1,14 +1,10 @@
 ( function() {
 
-    tinymce.create( 'tinymce.plugins.tinymce_clear_float', {
-        /**
-         * @param {tinymce.Editor} editor Editor instance that the plugin is initialized in.
-         * @param {string} url Absolute URL to where the plugin is located.
-         */
-        init : function( editor, url ) {
-            var clear_html = '<br style="clear: both;">',
+    const plugin = {
+        init(editor) {
+            const clear_html = '<br style="clear: both;">',
                 clear_html_no_semicolon = clear_html.replace( ';', '' ),
-                clear_title = editor.getLang( 'tinymce_clear_float.img_title', 'Clear float' ),
+                clear_title = 'Clear float',
                 clear_placeholder = '<img ' +
                     'src="' + tinymce.Env.transparentSrc + '" ' +
                     'class="mce-tinymce-clear-float" ' +
@@ -18,15 +14,15 @@
                     'data-mce-placeholder="1" ' +
                     '/>';
 
-            editor.addButton( 'tinymce-clear-float', {
-                title: editor.getLang( 'tinymce_clear_float.tooltip', 'Clear float' ),
-                cmd: 'clear_both',
-                image: url + '/../images/tinymce-clear-float-icon.svg'
+            editor.ui.registry.addButton( 'clear-float', {
+                icon: 'page-break',
+                tooltip: 'Clear float',
+                onAction: insertClearFloat
             } );
 
-            editor.addCommand( 'clear_both', function(){
+            function insertClearFloat() {
                 editor.execCommand( 'mceInsertContent', false, clear_placeholder );
-            } );
+            }
 
             editor.on( 'BeforeSetContent', function( event ) {
                 if ( event.content ) {
@@ -59,10 +55,18 @@
                     } );
                 }
             } );
-        },
 
-    } );
+            return {
+                getMetadata() {
+                    return {
+                        name: 'Clear Floats',
+                        url: 'https://github.com/xini/silverstripe-tinymce-clearfloats',
+                    };
+                }
+            };
+        }
+    };
 
-    // Register plugin
-    tinymce.PluginManager.add( 'tinymce_clear_float_plugin', tinymce.plugins.tinymce_clear_float );
+    // Adds the plugin class to the list of available TinyMCE plugins
+    tinymce.PluginManager.add('clear-float', (editor) => plugin.init(editor));
 } )();

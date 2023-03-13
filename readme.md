@@ -1,9 +1,9 @@
-# SilverStripe TinyMCE clear-floats plugin
+# Silverstripe TinyMCE clear-floats plugin
 
 [![Version](http://img.shields.io/packagist/v/innoweb/silverstripe-tinymce-clearfloats.svg?style=flat-square)](https://packagist.org/packages/innoweb/silverstripe-tinymce-clearfloats)
 [![License](http://img.shields.io/packagist/l/innoweb/silverstripe-tinymce-clearfloats.svg?style=flat-square)](license.md)
 
-This is a SilverStripe port of the [Wordpress plugin](https://github.com/tyrann0us/tinymce-clear-buttons) by [David Bammes](https://github.com/tyrann0us).
+This is a Silverstripe port of the [Wordpress plugin](https://github.com/tyrann0us/tinymce-clear-buttons) by [David Bammes](https://github.com/tyrann0us).
 
 ## Overview
 
@@ -20,9 +20,12 @@ for display on the site.
 
 ## Requirements
 
-* SilverStripe CMS 4.x
+* Silverstripe CMS 5.x
 
-Note: this version is compatible with SilverStripe 4. For SilverStripe 3, please see the [1.1 release line](https://github.com/xini/silverstripe-tinymce-clearfloats/tree/1.1).
+Note: this version is compatible with Silverstripe 5. 
+
+* For Silverstripe 4, please see the [2.x release line](https://github.com/xini/silverstripe-tinymce-clearfloats/tree/2).
+* For Silverstripe 3, please see the [1.x release line](https://github.com/xini/silverstripe-tinymce-clearfloats/tree/1.1).
 
 ## Installation
 

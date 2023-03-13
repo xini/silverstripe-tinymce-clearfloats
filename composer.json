@@ -15,7 +15,7 @@
 	},
 	"extra": {
 		"expose": [
-			"client/tinymce"
+			"client"
 		]
 	}
 }
