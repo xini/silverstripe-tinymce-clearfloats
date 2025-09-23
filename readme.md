@@ -20,12 +20,8 @@ for display on the site.
 
 ## Requirements
 
-* Silverstripe CMS 5.x
-
-Note: this version is compatible with Silverstripe 5. 
-
-* For Silverstripe 4, please see the [2.x release line](https://github.com/xini/silverstripe-tinymce-clearfloats/tree/2).
-* For Silverstripe 3, please see the [1.x release line](https://github.com/xini/silverstripe-tinymce-clearfloats/tree/1.1).
+* Silverstripe CMS ^6
+* silverstripe/htmleditor-tinymce ^1
 
 ## Installation
 

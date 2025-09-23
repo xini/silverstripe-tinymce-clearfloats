@@ -1,6 +1,6 @@
 ---
 name: tinymceclearfloats
 ---
-SilverStripe\Forms\HTMLEditor\TinyMCEConfig:
+SilverStripe\TinyMCE\TinyMCEConfig:
   editor_css:
     - 'innoweb/silverstripe-tinymce-clearfloats: client/dist/css/tinymce-clear-float.css'

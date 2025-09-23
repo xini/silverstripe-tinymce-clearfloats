@@ -3,7 +3,13 @@
 	"description": "Adds a clear-floats plugin the CMS WYSIWYG editor",
 	"type": "silverstripe-vendormodule",
 	"license": "BSD-3-Clause",
-	"keywords": ["silverstripe", "WYSIWYG", "floats", "tinymce", "clear"],
+	"keywords": [
+		"silverstripe",
+		"WYSIWYG",
+		"floats",
+		"tinymce",
+		"clear"
+	],
 	"homepage": "http://github.com/xini/silverstripe-tinymce-clearfloats",
 	"authors": [{
 		"name": "Florian Thoma",
@@ -11,7 +17,9 @@
 	}],
 	"require":
 	{
-		"silverstripe/cms": "^5"
+		"silverstripe/cms": "^6",
+		"silverstripe/vendor-plugin": "^3",
+		"silverstripe/htmleditor-tinymce": "^1"
 	},
 	"extra": {
 		"expose": [

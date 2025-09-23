@@ -1,34 +1,32 @@
 {
     "name": "silverstripe-tinymce-clearfloats",
-    "version": "3.0.0",
+    "version": "4.0.0",
     "description": "",
     "main": "index.js",
     "author": "Florian Thoma",
     "license": "BSD-3-Clause",
     "devDependencies": {
-        "@babel/core": "^7.24.7",
-        "@babel/preset-env": "^7.24.7",
-        "@rollup/plugin-commonjs": "^26.0.1",
-        "@rollup/plugin-node-resolve": "^15.2.3",
-        "del": "^7.1.0",
-        "gulp": "^5.0.0",
+        "@rollup/plugin-commonjs": "^28.0.6",
+        "@rollup/plugin-node-resolve": "^16.0.1",
+        "del": "^8.0.1",
+        "gulp": "^5.0.1",
         "gulp-autoprefixer": "^9.0.0",
         "gulp-best-rollup-2": "^5.0.3",
-        "gulp-changed": "^5.0.2",
+        "gulp-changed": "^5.0.3",
         "gulp-clean-css": "^4.3.0",
         "gulp-cssimport": "^7.0.0",
         "gulp-if": "^3.0.0",
         "gulp-imagemin": "^9.1.0",
         "gulp-plumber": "^1.2.1",
-        "gulp-sass": "^5.1.0",
+        "gulp-sass": "^6.0.1",
         "gulp-sourcemaps": "^3.0.0",
         "gulp-strip-debug": "^6.0.0",
         "gulp-uglify": "^3.0.2",
-        "sass": "^1.77.6",
+        "sass": "^1.93.1",
         "through2": "^4.0.2"
     },
     "engines": {
-        "node": "^18.0.0"
+        "node": "^20.0.0"
     },
     "browserslist": [
         "> 1%",
